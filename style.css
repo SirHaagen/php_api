@@ -1,0 +1,47 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+.container{
+  width: 100vw;
+  height: auto;
+  background-color: #E3F4F4;
+  display: grid;
+  justify-content: center;
+}
+
+.person{
+  width: 80vw;
+  margin: 20px;
+  background-color: #F8F6F4;
+  padding: 20px 0;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #dddcdc;
+  display: grid;
+  grid-template-columns: 15% 35% 20% 30%;
+}
+.person>div{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+.person .picture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.person .picture img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px #dddcdc;
+
+}
+
+.person .info1 .name{
+  font-weight: bold;
+}
